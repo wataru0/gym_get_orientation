@@ -30,6 +30,14 @@ while True:
         break
 ```
 
+The command line after execution.
+
+![スクリーンショット 2021-05-10 19 00 18](https://user-images.githubusercontent.com/44032125/117642257-09231d00-b1c2-11eb-88e2-c25764648eff.png)
+
+info['body_orientation'] contains an ndarray consisting of three elements.
+Each of these elements corresponds to x, y, and z.
+If you want to detect falls, you should pay attention to the value of z.
+
 ## Demo
 Visualization of the change in torso's orientation vector.
 ![out-h](https://user-images.githubusercontent.com/44032125/117641471-25728a00-b1c1-11eb-9ddd-b5f96a64fff1.gif)
