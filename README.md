@@ -14,6 +14,7 @@ import gym_get_orientation as go
 env = gym.make('Ant-v2')
 
 # body_name is the name of the body for which you want to get the orientation vector.
+# The body_name is defined in the agent's xml file.
 env = go.GetOrientationEnv(env, body_name='torso')
 
 done = False
