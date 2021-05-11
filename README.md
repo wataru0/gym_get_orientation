@@ -43,4 +43,6 @@ If you want to detect falls, you should pay attention to the value of z.
 Visualization of the change in torso's orientation vector.
 ![out-h](https://user-images.githubusercontent.com/44032125/117641471-25728a00-b1c1-11eb-9ddd-b5f96a64fff1.gif)
 
+
+## License
 This software is released under the MIT License, see LICENSE.txt.
