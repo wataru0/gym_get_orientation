@@ -19,11 +19,11 @@ class GetOrientationEnv(gym.Wrapper):
 
     def step(self, action):
         obs, reward, done, info = self.env.step(action)
-        body_orientation = self.get_body_orientation(body_name=self.body_name)
+        body_orientation = self._get_body_orientation(body_name=self.body_name)
         info['body_orientation'] = body_orientation
         return obs, reward, done, info
     
-    def get_body_orientation(self, body_name: str):
+    def _get_body_orientation(self, body_name: str):
         now_quat = self.data.get_body_xquat(body_name)
 
         res = np.zeros(4)
