@@ -44,5 +44,8 @@ Visualization of the change in torso's orientation vector.
 
 <img src=https://user-images.githubusercontent.com/44032125/117641471-25728a00-b1c1-11eb-9ddd-b5f96a64fff1.gif width=900 />
 
+## Article
+[Qiita](https://qiita.com/okamoto441/items/556edd566b3407fd2bd2)
+
 ## License
 This software is released under the MIT License, see LICENSE.txt.
